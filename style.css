@@ -536,3 +536,21 @@ span {
 .footer-bottom p {
     font-size: 1.4rem;
 }
+
+h1 {
+    font-size: 3rem; /* Sesuaikan ukuran */
+    font-weight: bold;
+    color: #60a5fa; /* Warna biru */
+    margin-bottom: 20px; /* Beri jarak bawah */
+}
+
+.poster-img {
+    width: 100%; /* Biarkan gambar mengikuti ukuran col-2 */
+    height: auto; /* Menjaga rasio aspek gambar */
+    object-fit: contain; /* Pastikan gambar tidak terpotong */
+}
+
+.poster-img {
+    object-fit: cover;
+}
+
