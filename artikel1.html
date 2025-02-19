@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial: Membuat Website Responsif dengan Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f8f9fa; }
+        .container { margin-top: 20px; max-width: 900px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        .hero { background: url('https://source.unsplash.com/1200x400/?technology,website') no-repeat center center; background-size: cover; color: white; padding: 80px 20px; text-align: center; border-radius: 10px; }
+        .section { padding: 40px 20px; }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Tutorial: Membuat Website Responsif dengan Bootstrap</h1>
+        <p>Pelajari cara mudah membangun website modern dan responsif dengan framework Bootstrap.</p>
+    </header>
+    
+    <div class="container">
+        <section id="pengertian" class="section">
+            <h2>Apa itu Bootstrap?</h2>
+            <p>Bootstrap adalah framework front-end yang populer untuk membangun website yang responsif dan mobile-friendly. Dengan Bootstrap, Anda dapat dengan mudah membuat tata letak halaman yang fleksibel dan menarik tanpa harus menulis banyak kode CSS dari awal.</p>
+            <p>Bootstrap dikembangkan oleh tim Twitter dan telah menjadi standar industri untuk pengembangan web modern.</p>
+        </section>
+        
+        <section id="struktur" class="section bg-light">
+            <h2>Struktur Dasar Bootstrap</h2>
+            <p>Untuk mulai menggunakan Bootstrap, tambahkan kode berikut ke dalam dokumen HTML Anda:</p>
+            <pre><code>&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;</code></pre>
+            <p>Dengan menambahkan file CSS dan JavaScript ini, Anda dapat langsung menggunakan berbagai komponen dan grid sistem Bootstrap.</p>
+        </section>
+        
+        <section id="contoh" class="section">
+            <h2>Contoh Penggunaan Bootstrap</h2>
+            <p>Berikut adalah contoh tata letak menggunakan Bootstrap:</p>
+            <div class="row">
+                <div class="col-md-6 bg-light p-4 border">Kolom 1 - Konten responsif</div>
+                <div class="col-md-6 bg-secondary text-white p-4 border">Kolom 2 - Desain menarik</div>
+            </div>
+            <p class="mt-3">Bootstrap memungkinkan Anda untuk menggunakan sistem grid 12 kolom yang fleksibel, sehingga memudahkan dalam menyusun layout halaman.</p>
+        </section>
+        
+        <section id="komponen" class="section bg-light">
+            <h2>Komponen Bootstrap</h2>
+            <p>Bootstrap menyediakan berbagai komponen siap pakai seperti tombol, formulir, dan kartu. Berikut contoh penggunaan tombol Bootstrap:</p>
+            <button class="btn btn-primary">Tombol Bootstrap</button>
+            <p class="mt-3">Selain itu, Bootstrap juga menyediakan komponen seperti navbar, carousel, modal, dan lainnya yang dapat mempercepat proses pengembangan web.</p>
+        </section>
+        
+        <section id="kesimpulan" class="section">
+            <h2>Kesimpulan</h2>
+            <p>Bootstrap adalah alat yang sangat berguna untuk pengembang web modern. Dengan berbagai fitur yang disediakan, Anda dapat membangun website yang responsif dan menarik dengan lebih cepat dan efisien.</p>
+            <p>Jika Anda ingin mengembangkan website dengan tampilan profesional dan mudah diakses di berbagai perangkat, Bootstrap adalah pilihan yang tepat.</p>
+        </section>
+    </div>
+    
+    <footer class="bg-primary text-white text-center p-4 mt-4">
+        &copy; 2025 Tutorial Bootstrap - Semua Hak Dilindungi
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
